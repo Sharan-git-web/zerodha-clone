@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Universe() {
+function LeftImage() {
     return (  
         <h1>
-            Universee
+            LeftImage
         </h1>
     );
 }
 
-export default Universee;
+export default LeftImage;

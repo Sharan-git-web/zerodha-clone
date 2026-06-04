@@ -1,11 +1,11 @@
 import React from 'react';
 
-function OpenAccount() {
+function People() {
     return ( 
         <h1>
-            Open Account
+            Team
         </h1>
      );
 }
 
-export default OpenAccount;
+export default Team;

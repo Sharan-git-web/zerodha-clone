@@ -1,18 +1,18 @@
 import React from 'react';
-import Brokerage from './Brokerage';
-import Hero from './Hero';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
 
-function PricingPage() {
+import Hero from './Hero';
+import People from './Team';
+import Navbar from '../Navbar';
+
+function About() {
     return ( 
         <>  
             <Navbar/>
-            <Brokerage/>
-            <Home/>
+            <Hero/>
+            <Team/>
             <Footer/>
         </>
      );
 }
 
-export default PricingPage;
+export default AboutPage;
